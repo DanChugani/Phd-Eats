@@ -13,12 +13,10 @@ import java.util.ArrayList;
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
  *
- * Created by Rick on 10/31/2015.
+ * Created by Rick & Chandan on 10/31/2015.
  * This is an adapter for the select campus screen. It Recieves a campus and displays only the campus
  * name currently however it could easily be modified to show more information
  */

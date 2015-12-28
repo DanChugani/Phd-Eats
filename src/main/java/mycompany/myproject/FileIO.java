@@ -11,16 +11,14 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
- * * Team: Ch-ick
+ * Team: Ch-ick
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
  *
- * Created by Rick on 10/20/2015.
+ * Created by Rick & Chandan on 10/20/2015.
  * An object i am using to store the users choices as well as an error check. For example it will
  * store a network check in certain areas of the app that way if the user looses network connection
  * part way through the app it will handle that and relaunch in a local mode.

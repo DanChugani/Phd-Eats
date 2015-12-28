@@ -261,7 +261,7 @@ public class SubmitReview extends AppCompatActivity
                     String rating = (String)arg0[1];
                     float myRating = Float.parseFloat(rating);
                     String description = (String)arg0[2];
-                    String link = "http://phdeats.esy.es/getSReview.php?campusname="+campusname+"& restaurantname="+restaurantname+"& username="+username+"& rating="+myRating+"& description="+description;
+                    String link = "link to submit review to resteraunt on campus"+campusname+"& restaurantname="+restaurantname+"& username="+username+"& rating="+myRating+"& description="+description;
                     link = link.replaceAll(" ", "%20");
 
                     URL url = new URL(link);

@@ -14,12 +14,10 @@ import java.util.ArrayList;
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
  *
- * Created by Rick on 10/31/2015.
+ * Created by Rick & Chandan on 10/31/2015.
  * This is an adapter that will receive an object of Restaurant and then parse the data accordingly
  * in to the listview adapter. Simply receives an object and checks for null values
  * then applies the correct data to the appropriate textfield.

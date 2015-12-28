@@ -7,12 +7,10 @@ import java.io.Serializable;
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
  *
- * Created by Rick on 10/18/2015.
+ * Created by Rick & Chandan on 10/18/2015.
  * A user object designed to store the users information
  */
 public class User implements Serializable

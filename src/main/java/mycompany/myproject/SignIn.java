@@ -42,12 +42,10 @@ import java.net.URL;
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
  *
- * Created by Rick on 19/2015.
+ * Created by Rick & Chandan on 19/2015.
  * This is the main screen of the application it will allow th user to sign in as a guest or
  * using actual credentials assuming you aren't disconnected from the internet. There is a checkbox
  * that will allow the user to save there credentials
@@ -266,7 +264,7 @@ public class SignIn extends AppCompatActivity
                 try{
                     String username = (String)arg0[0];
                     String password = (String)arg0[1];
-                    String link = "http://phdeats.esy.es/getLogin.php?username="+username+"& password="+password;
+                    String link = "link to add user to database"+username+"& password="+password;
                     link = link.replaceAll(" ", "%20");
 
                     URL url = new URL(link);

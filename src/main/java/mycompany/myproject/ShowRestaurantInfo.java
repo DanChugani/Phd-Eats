@@ -40,10 +40,10 @@ import java.util.ArrayList;
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
+ *
+ * Created by Rick & Chandan
  *
  * This is the Restaurant Information screen if connected to the internet it will connect to a remote
  * database and load all of the available Reviews based off of the users choice of campus and
@@ -256,7 +256,7 @@ public class ShowRestaurantInfo extends AppCompatActivity
                 try{
                     String CampusName = (String)arg0[0];
                     String RestaurantName = (String)arg0[1];
-                    String link = "http://phdeats.esy.es/getReviews.php?CampusName="+CampusName+"& RestaurantName="+RestaurantName;
+                    String link = "link to get reviews from campus"+CampusName+"& RestaurantName="+RestaurantName;
                     link = link.replaceAll(" ", "%20");
 
                     URL url = new URL(link);

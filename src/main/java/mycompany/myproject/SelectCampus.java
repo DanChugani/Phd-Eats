@@ -37,10 +37,10 @@ import java.util.ArrayList;
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
+ *
+ * Created by Rick & Chandan
  *
  * This is the select campus screen if connected to the internet it will connect to a remote
  * database and load all of the available campuses to choose from. If you arent connected
@@ -221,7 +221,7 @@ public class SelectCampus extends AppCompatActivity {
         protected String doInBackground(String... arg0) {
             if (byGetOrPost == 0) { //means by Get Method
                 try {
-                    String link = "http://phdeats.esy.es/getCampuses.php";
+                    String link = "link to get campuses database";
                     link = link.replaceAll(" ", "%20");
 
                     URL url = new URL(link);

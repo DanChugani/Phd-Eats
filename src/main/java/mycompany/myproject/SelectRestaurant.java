@@ -37,10 +37,10 @@ import java.util.ArrayList;
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
+ *
+ * Created by Rick & Chandan
  *
  * This is the select Restaurant screen if connected to the internet it will connect to a remote
  * database and load all of the available restaurants based off of the users choice of campus.
@@ -213,7 +213,7 @@ public class SelectRestaurant extends AppCompatActivity
             if(byGetOrPost == 0){ //means by Get Method
                 try{
                     String CampusName = (String)arg0[0];
-                    String link = "http://phdeats.esy.es/getRestaurants3.php?CampusName="+CampusName;
+                    String link = "link to get resteraunt from campus "+CampusName;
                     link = link.replaceAll(" ", "%20");
 
                     URL url = new URL(link);

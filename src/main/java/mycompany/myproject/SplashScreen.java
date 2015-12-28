@@ -9,15 +9,15 @@ import android.view.MenuItem;
 import android.content.Intent;
 import android.os.Handler;
 
-/*
+/**
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
+ *
+ * Created by Rick & Chandan
  *
  * A simple splash screen designed to only play once on the application start up
  * Simply just displays an image for a preset period of time.

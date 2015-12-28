@@ -36,12 +36,10 @@ import java.net.URL;
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
  *
- * Created by Rick on 19/2015.
+ * Created by Rick & Chandan on 19/2015.
  * This is the SignUp screen it will allow the user to create an account with our application.
  * Currently the account will only provide an  username when submitting a review and holds
  * no other value
@@ -211,7 +209,7 @@ public class SignUp extends AppCompatActivity {
                 try{
                     String username = (String)arg0[0];
                     String password = (String)arg0[1];
-                    String link = "http://phdeats.esy.es/getSignUp2.php?username="+username+"& password="+password;
+                    String link = "insert link to php file"+username+"& password="+password;
                     link = link.replaceAll(" ", "%20");
 
                     URL url = new URL(link);

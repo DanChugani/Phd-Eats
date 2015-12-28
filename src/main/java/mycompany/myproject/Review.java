@@ -7,12 +7,10 @@ import java.io.Serializable;
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
  *
- * Created by Rick on 10/24/2015.
+ * Created by Rick & Chandan on 10/24/2015.
  * An Object class that is designed to store review information. The review object is used to store
  * the user submitted reviews and the reviews submitted from the remote database.
  */

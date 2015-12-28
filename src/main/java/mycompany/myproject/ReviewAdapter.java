@@ -14,12 +14,10 @@ import android.widget.TextView;
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
  *
- * Created by Rick on 10/31/2015.
+ * Created by Rick & Chandan on 10/31/2015.
  * This is an adapter that will receive an object of Review and then parse the data accordingly in
  * the listview adapter. Simply receives an object and checks the information and applies the correct
  * data to the appropriate field assuming the data is not null.

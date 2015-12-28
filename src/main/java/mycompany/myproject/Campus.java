@@ -8,12 +8,10 @@ import java.io.Serializable;
  * Project Name: PHD-Eats
  *
  * Name: Richard Clapham
- * Student #: 821-490-125
  *
  * Name: Chandan Chugani
- * Student #: RefactorThisToYourStudent#Chandan
  *
- * Created by Rick on 11/7/2015.
+ * Created by Rick & Chandan on 11/7/2015.
  * The campus object that holds all the information about a specific campus
  */
 public class Campus extends AppCompatActivity implements Serializable {
