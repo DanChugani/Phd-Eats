@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/list_row_selector"
+android:orientation="horizontal"
+android:padding="5dip">
+
+<!--  ListRow Left side Thumbnail image -->
+<LinearLayout android:id="@+id/thumbnail_resteraunt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dip"
+    android:layout_alignParentLeft="true"
+    android:layout_marginRight="5dip">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/restaurant"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+</LinearLayout>
+
+<!-- Campus Name -->
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/thumbnail_resteraunt"
+    android:text="@string/restaurant"
+    android:layout_alignTop="@+id/thumbnail_resteraunt"
+    android:layout_toEndOf="@+id/thumbnail_resteraunt"
+    android:textColor="@color/list_view_color"
+    android:typeface="sans"
+    android:textSize="14dip"/>
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/textView1"
+    android:layout_below="@+id/textView1"
+    android:text="@string/location"
+    android:textColor="@color/list_view_color"
+    android:typeface="sans"
+    android:textSize="14dip"/>
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/textView2"
+    android:layout_below="@+id/textView2"
+    android:text="@string/description"
+    android:textColor="@color/list_view_color"
+    android:typeface="sans"
+    android:textSize="14dip"/>
+
+<TextView
+    android:id="@+id/textView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView3"
+    android:layout_alignBottom="@+id/textView3"
+    android:layout_toRightOf="@+id/textView3"
+    android:text="@string/hello_world"
+    android:textColor="@color/list_view_color"
+    android:typeface="sans"
+    android:textSize="14dip"/>
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/textView3"
+    android:layout_toRightOf="@+id/textView3"
+    android:text="@string/hello_world"
+    android:textColor="@color/list_view_color"
+    android:typeface="sans"
+    android:textSize="14dip"/>
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/textView2"
+    android:layout_alignLeft="@+id/textView5"
+    android:text="@string/hello_world"
+    android:textColor="@color/list_view_color"
+    android:typeface="sans"
+    android:textSize="14dip"/>
+
+
+<!-- Rightend Arrow -->
+<ImageView android:layout_width="10dp"
+    android:layout_height="10dp"
+    android:src="@drawable/arrow"
+    android:layout_alignBottom="@+id/thumbnail"
+    android:layout_alignTop="@+id/textView5"
+    android:layout_alignParentEnd="true" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Test/Desktop/PHD%20Eats/src/main/res/layout/restaurant_view.xml -->

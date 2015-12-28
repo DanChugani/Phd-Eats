@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/list_row_selector"
+android:orientation="horizontal"
+android:padding="5dip">
+
+
+<!-- Campus Name -->
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="@string/username"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/list_view_color"
+    android:typeface="sans"
+    android:textSize="12dip"/>
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/description"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_alignLeft="@+id/textView1"
+    android:layout_below="@+id/textView1"
+    android:textColor="@color/list_view_color"
+    android:typeface="sans"
+    android:textSize="12dip"/>
+
+<TextView
+    android:id="@+id/textView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView3"
+    android:layout_alignBottom="@+id/textView3"
+    android:layout_toRightOf="@+id/textView3"
+    android:text="@string/hello_world"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/list_view_color"
+    android:typeface="sans"
+    android:textSize="12dip"/>
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/hello_world"
+    android:layout_above="@+id/textView3"
+    android:layout_toEndOf="@+id/textView3"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/list_view_color"
+    android:typeface="sans"
+    android:textSize="12dip"/>
+
+<RatingBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="?android:attr/ratingBarStyleSmall"
+    android:id="@+id/ratingBar3"
+    android:layout_above="@+id/textView3"
+    android:layout_alignParentEnd="true"
+    android:textColor="@color/list_view_color"
+    android:typeface="sans"
+    android:textSize="12dip"/>
+
+
+
+
+</RelativeLayout>

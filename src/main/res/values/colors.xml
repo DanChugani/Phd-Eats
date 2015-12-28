@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navyblue">#000080</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="light_green">#00ff7f</color>
+    <color name="light_yellow">#ffffe0</color>
+    <color name="app_bg_color">#850505</color>
+    <color name="light_orange">#ffa500</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#0080FF</color>
+    <color name="lessblack">#424242</color>
+    <color name="lightGrey">#F2F2F2</color>
+
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#c2c1c1</color>
+    <color name="list_row_end_color">#f1f1f2</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="list_view_color">#040404</color>
+</resources>

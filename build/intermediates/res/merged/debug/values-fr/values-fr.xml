@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Test/Desktop/PHD%20Eats/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="Cancel1">Annuler?</string>
+    <string name="Cancel2">Revue Annulé</string>
+    <string name="CancelS2">Inscription Annulé</string>
+    <string name="Confirm1">Envoyer le Commentaire</string>
+    <string name="Confirm2">Confirmer</string>
+    <string name="ConfirmS1">Signer</string>
+    <!-- From: file:/C:/Users/Test/Desktop/PHD%20Eats/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-fr/values-fr.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Revenir à l\'accueil"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Revenir en haut de la page"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Plus d\'options"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"OK"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tout afficher"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Sélectionner une application"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Rechercher…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Effacer la requête"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Requête de recherche"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Rechercher"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envoyer la requête"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Recherche vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partager avec"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Partager avec %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Réduire"</string>
+    <!-- From: file:/C:/Users/Test/Desktop/PHD%20Eats/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Paramètres</string>
+    <string name="app_name">PHD Eats</string>
+    <string name="campus">Campus:</string>
+    <string name="check">Etes-vous sûr que vous voulez soumettre l\'examen?</string>
+    <string name="check2">Êtes-vous sûr que vous voulez Inscription?</string>
+    <string name="cpassword">Retaper le mot de passe:</string>
+    <string name="description">Description:</string>
+    <string name="email">E-Mail:</string>
+    <string name="gSignIn">Connectez-vous en tant que guest</string>
+    <string name="guest">Procédez comme clients</string>
+    <string name="hello_world">Bonjour</string>
+    <string name="incorrect">Nom d\'utilisateur ou mot de passe invalide</string>
+    <string name="incorrect2">Les mots de passe ne correspondent pas</string>
+    <string name="incorrect3">S\'il vous plaît Entrez un nom d\'utilisateur et mot de passe</string>
+    <string name="incorrect4">Veuillez fournir une adresse courriel valide</string>
+    <string name="incorrect5">S\'il vous plaît Entrez un Note et description</string>
+    <string name="incorrect6">Nom d\'utilisateur doit être plus courte, puis 10 Caractères</string>
+    <string name="incorrect7">Révision doit être plus courte que 30 caractères</string>
+    <string name="loading">Chargement des informations</string>
+    <string name="location">Emplacement:</string>
+    <string name="login">S\'inscrire</string>
+    <string name="loginS">Inscrivez-In réussie</string>
+    <string name="network">Connexion Réseau Perdue</string>
+    <string name="noContent">Pas de contenu à afficher</string>
+    <string name="offline">Démarrage en mode hors ligne</string>
+    <string name="password">Mot de passe:</string>
+    <string name="rating">Évaluation:</string>
+    <string name="remember">Souviens-toi de moi</string>
+    <string name="restaurant">Restaurant:</string>
+    <string name="reviewF">Soumission Échec</string>
+    <string name="reviewSubmitting">Revue Envoi</string>
+    <string name="sReview">Envoyer le commentaire</string>
+    <string name="saReview">Envoyer un avis?</string>
+    <string name="settings">Paramètres</string>
+    <string name="signIn">Se connecter</string>
+    <string name="signingIn">Connectez-vous</string>
+    <string name="signingUp">S\'enregistrer</string>
+    <string name="signup">Signer?</string>
+    <string name="signup2">Signer</string>
+    <string name="signupF">Inscription Échec</string>
+    <string name="signupF2">Ce nom d\'utilisateur est déjà pris!</string>
+    <string name="signupS">Inscription Réussie</string>
+    <!-- From: file:/C:/Users/Test/Desktop/PHD%20Eats/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-fr/values-fr.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <!-- From: file:/C:/Users/Test/Desktop/PHD%20Eats/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_restaurant">Restaurant Sélectionné</string>
+    <string name="title_activity_select_campus">Sélectionner un Campus</string>
+    <string name="title_activity_select_restaurant">Sélectionner un Restaurant</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="title_activity_sign_in">S\'identifier</string>
+    <string name="title_activity_sign_up">Signer</string>
+    <string name="title_activity_splash_screen">SpashScreen</string>
+    <string name="title_activity_submit_review">Envoyer le commentaire</string>
+    <string name="user">le nom d\'utilisateur</string>
+    <string name="username">le nom d\'utilisateur</string>
+    <string name="wait0">Création d\'un compte</string>
+    <string name="wait1">Authentification Confirmant</string>
+    <string name="wait2">Campus de Chargement</string>
+    <string name="wait3">Chargement Restaurants</string>
+    <string name="wait4">Chargement Avis</string>
+    <string name="wait5">Envoi de votre Commentaire</string>
+</resources>

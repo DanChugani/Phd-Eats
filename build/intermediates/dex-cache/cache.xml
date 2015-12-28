@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Test\Desktop\PHD Eats\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Test\Desktop\PHD Eats\build\intermediates\pre-dexed\debug\classes-acd63ee6876ba7ffe41dd437ea988fb4953b742e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Test\Desktop\PHD Eats\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Test\Desktop\PHD Eats\build\intermediates\pre-dexed\debug\classes-73903a09c3874f864c6f339b7d9e9c0e26f8bdd2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Test\Desktop\PHD Eats\libs\httpcore-4.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e813b8722c387b22e1adccf7914729db09bcb4a9">
+        <dex dex="C:\Users\Test\Desktop\PHD Eats\build\intermediates\pre-dexed\debug\httpcore-4.0.1-d82e7c6c8c3a565b7ee834e0f2fc9e4b4dc1c9b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Test\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Test\Desktop\PHD Eats\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-231bc7ce8c9222872ae5fea875bab928d48474d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Test\Desktop\PHD Eats\libs\json-simple-1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="C:\Users\Test\Desktop\PHD Eats\build\intermediates\pre-dexed\debug\json-simple-1.1-7cbbef180c0db11faac2bec3460a76ce37734a0e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Test\Desktop\PHD Eats\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Test\Desktop\PHD Eats\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-910de02258d2594643523f2cc6b71c3fd708e5fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Test\Desktop\PHD Eats\libs\httpclient-4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a76d7fd8033d48b4c67b4ccf159abb080c1059b6">
+        <dex dex="C:\Users\Test\Desktop\PHD Eats\build\intermediates\pre-dexed\debug\httpclient-4.0-b1f3738301974caa62a7a7f9d600815b163963e2.jar" />
+    </item>
+
+</items>
