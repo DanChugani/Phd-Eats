@@ -45,7 +45,7 @@ import java.net.URL;
  *
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description:
  * This is the main screen of the application it will allow th user to sign in as a guest or

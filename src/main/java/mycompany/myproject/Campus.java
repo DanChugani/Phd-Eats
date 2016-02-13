@@ -7,11 +7,11 @@ import java.io.Serializable;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- *Date: 11/07/2015
+ * Date: 11/07/2015
  * 
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description: 
  * The campus object that holds all the information about a specific campus

@@ -44,7 +44,7 @@ import java.util.ArrayList;
  *
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description:
  * This is the submit review screen a simple screen that will allow the user to submit a description

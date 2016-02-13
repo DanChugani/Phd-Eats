@@ -12,11 +12,11 @@ import java.util.ArrayList;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- *Date: 10/31/2015
+ * Date: 10/31/2015
  *
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description:
  * This is an adapter for the select campus screen. It Recieves a campus and displays only the campus

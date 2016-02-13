@@ -17,7 +17,7 @@ import java.util.ArrayList;
  *
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description:
  * This is an adapter that will receive an object of Restaurant and then parse the data accordingly

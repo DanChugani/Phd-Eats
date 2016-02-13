@@ -10,7 +10,7 @@ import java.io.Serializable;
  *
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description:
  * An Object class that is designed to store review information. The review object is used to store

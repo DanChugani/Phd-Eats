@@ -13,7 +13,7 @@ import java.util.ArrayList;
  *
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description:
  * This class is used to create objects of a restaurants specific information.

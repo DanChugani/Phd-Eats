@@ -43,7 +43,7 @@ import java.util.ArrayList;
  *
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description:
  * This is the Restaurant Information screen if connected to the internet it will connect to a remote

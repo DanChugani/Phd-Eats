@@ -17,7 +17,7 @@ import android.os.Handler;
  *
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description:
  * A simple splash screen designed to only play once on the application start up

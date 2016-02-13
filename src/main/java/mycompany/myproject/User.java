@@ -10,7 +10,7 @@ import java.io.Serializable;
  *
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description:
  * A user object designed to store the users information

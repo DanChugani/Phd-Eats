@@ -39,7 +39,7 @@ import java.net.URL;
  *
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description:
  * This is the SignUp screen it will allow the user to create an account with our application.

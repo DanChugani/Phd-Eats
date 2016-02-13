@@ -18,7 +18,7 @@ import java.util.ArrayList;
  *
  * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Name: Dan Chugani
  *
  * Description:
  * An object that stores the users choices as well as an error check. For example it will
