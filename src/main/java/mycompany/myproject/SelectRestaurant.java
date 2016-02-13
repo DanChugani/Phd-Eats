@@ -36,12 +36,13 @@ import java.util.ArrayList;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Name: Richard Clapham
+ * Date: 10/31/2015
  *
+ * Created by:
+ * Name: Richard Clapham
  * Name: Chandan Chugani
  *
- * Created by Rick & Chandan
- *
+ * Description:
  * This is the select Restaurant screen if connected to the internet it will connect to a remote
  * database and load all of the available restaurants based off of the users choice of campus.
  * If you arent connected to the internet it will use a local database and load restaurants
@@ -76,9 +77,9 @@ public class SelectRestaurant extends AppCompatActivity
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
 
-        //Checks to make sure the user still has an internet connection and handles accordingly
-        //If the user had network connection but loses it part way through it will relaunch
-        //the select campus screen and start it into offline mode
+        // Checks to make sure the user still has an internet connection and handles accordingly
+        // If the user had network connection but loses it part way through it will relaunch
+        // The select campus screen and start it into offline mode
         if(isNetworkAvailable() && myFileIO.getMyNetworkState()) {
             new LoadRestaurantActivity(getBaseContext(), 0).execute(myFileIO.getMyCampusChoice());
         }
@@ -98,8 +99,8 @@ public class SelectRestaurant extends AppCompatActivity
             //End of local DB
         }
 
-        //Listeners for the user to select a restaurant it will then store the information of the
-        //Restaurant and launch the selectedRestaurant class which will display Restaurant
+        // Listeners for the user to select a restaurant it will then store the information of the
+        // Restaurant and launch the selectedRestaurant class which will display Restaurant
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -175,7 +176,7 @@ public class SelectRestaurant extends AppCompatActivity
         myListView.setAdapter(arrayAdapter);
     }
 
-    //This is the AsyncTask that will connect to the database and return a JSONArray of
+    // This is the AsyncTask that will connect to the database and return a JSONArray of
     // Restaurants. It currently will dispaly the restaurants name location and description
     //which is all stored on the remote database.
     private class LoadRestaurantActivity extends AsyncTask<String,Void,String>

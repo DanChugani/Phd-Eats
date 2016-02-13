@@ -35,11 +35,13 @@ import java.net.URL;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Name: Richard Clapham
+ * Date: 10/19/2015
  *
+ * Created by:
+ * Name: Richard Clapham
  * Name: Chandan Chugani
  *
- * Created by Rick & Chandan on 19/2015.
+ * Description:
  * This is the SignUp screen it will allow the user to create an account with our application.
  * Currently the account will only provide an  username when submitting a review and holds
  * no other value
@@ -72,14 +74,14 @@ public class SignUp extends AppCompatActivity {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
 
-        //checks if network is avaialble if it isnt disables the signup button
+        // Checks if network is avaialble if it isnt disables the signup button
         if(!isNetworkAvailable()){
             SignUpButton.setEnabled(false);
         }
 
-        //When the signup button is clicked it will check the fields to make sure there is
-        //a valid email address username and password it will then check again to make sure that
-        //you have an internet connection and if you do it will create your account
+        // When the signup button is clicked it will check the fields to make sure there is
+        // a valid email address username and password it will then check again to make sure that
+        // you have an internet connection and if you do it will create your account
         SignUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
