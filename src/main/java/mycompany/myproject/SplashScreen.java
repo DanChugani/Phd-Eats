@@ -13,12 +13,13 @@ import android.os.Handler;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Name: Richard Clapham
+ * Date: 10/31/2015
  *
+ * Created by:
+ * Name: Richard Clapham
  * Name: Chandan Chugani
  *
- * Created by Rick & Chandan
- *
+ * Description:
  * A simple splash screen designed to only play once on the application start up
  * Simply just displays an image for a preset period of time.
  */

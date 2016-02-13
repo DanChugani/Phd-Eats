@@ -7,11 +7,13 @@ import java.io.Serializable;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
+ *Date: 11/07/2015
+ * 
+ * Created by:
  * Name: Richard Clapham
- *
  * Name: Chandan Chugani
  *
- * Created by Rick & Chandan on 11/7/2015.
+ * Description: 
  * The campus object that holds all the information about a specific campus
  */
 public class Campus extends AppCompatActivity implements Serializable {

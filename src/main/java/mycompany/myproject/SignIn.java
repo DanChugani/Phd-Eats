@@ -41,11 +41,13 @@ import java.net.URL;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Name: Richard Clapham
+ * Date: 10/19/2015
  *
+ * Created by:
+ * Name: Richard Clapham
  * Name: Chandan Chugani
  *
- * Created by Rick & Chandan on 19/2015.
+ * Description:
  * This is the main screen of the application it will allow th user to sign in as a guest or
  * using actual credentials assuming you aren't disconnected from the internet. There is a checkbox
  * that will allow the user to save there credentials

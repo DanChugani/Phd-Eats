@@ -13,11 +13,13 @@ import android.widget.TextView;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Name: Richard Clapham
+ * Date: 10/31/2015
  *
+ * Created by:
+ * Name: Richard Clapham
  * Name: Chandan Chugani
  *
- * Created by Rick & Chandan on 10/31/2015.
+ * Description:
  * This is an adapter that will receive an object of Review and then parse the data accordingly in
  * the listview adapter. Simply receives an object and checks the information and applies the correct
  * data to the appropriate field assuming the data is not null.
@@ -29,8 +31,8 @@ public class ReviewAdapter extends ArrayAdapter<Review>
     private ArrayList<Review> objects;
 
     /* here we must override the constructor for ArrayAdapter
-    * the only variable we care about now is ArrayList<Item> objects,
-    * because it is the list of objects we want to display.
+    *  the only variable we care about now is ArrayList<Item> objects,
+    *  because it is the list of objects we want to display.
     */
     public ReviewAdapter(Context context, int textViewResourceId, ArrayList<Review> objects)
     {
@@ -59,13 +61,13 @@ public class ReviewAdapter extends ArrayAdapter<Review>
 		 * The variable simply refers to the position of the current object in the list. (The ArrayAdapter
 		 * iterates through the list we sent it)
 		 *
-		 * Therefore, i refers to the current Item object.
+		 * Therefore, we refer to the current Item as object.
 		 */
         Review i = objects.get(position);
 
         if (i != null) {
 
-            // This is how you obtain a reference to the TextViews.
+            // This is how we obtain a reference to the TextViews.
             // These TextViews are created in the XML files we defined.
             TextView t1 = (TextView) v.findViewById(R.id.textView4);
             RatingBar rB =(RatingBar) v.findViewById(R.id.ratingBar3);

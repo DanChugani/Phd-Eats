@@ -9,12 +9,14 @@ import java.util.ArrayList;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Name: Richard Clapham
+ * Date: 10/14/2015
  *
+ * Created by:
+ * Name: Richard Clapham
  * Name: Chandan Chugani
  *
- * Created by Rick & Chandan on 10/14/2015.
- * My Main object class this is used to create objects of a restaurants specific information.
+ * Description:
+ * This class is used to create objects of a restaurants specific information.
  */
 public class Restaurant extends AppCompatActivity implements Serializable
 {
