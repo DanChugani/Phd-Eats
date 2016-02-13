@@ -6,13 +6,11 @@ import java.io.Serializable;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Date: 10/18/2015
- *
- * Created by:
  * Name: Richard Clapham
+ *
  * Name: Chandan Chugani
  *
- * Description:
+ * Created by Rick & Chandan on 10/18/2015.
  * A user object designed to store the users information
  */
 public class User implements Serializable

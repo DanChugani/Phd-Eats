@@ -36,13 +36,12 @@ import java.util.ArrayList;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Date: 10/31/2015
- *
- * Created by:
  * Name: Richard Clapham
+ *
  * Name: Chandan Chugani
  *
- * Description:
+ * Created by Rick & Chandan
+ *
  * This is the select campus screen if connected to the internet it will connect to a remote
  * database and load all of the available campuses to choose from. If you arent connected
  * to the internet it will use a local database.
@@ -73,8 +72,8 @@ public class SelectCampus extends AppCompatActivity {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
 
-        // Checks for internet connection and if it is available connects to the reote database
-        // Else it will use the local database
+        //Checks for internet connection and if it is available connects to the reote database
+        //Else it will use the local database
         if (isNetworkAvailable()) {
             myFileIO.setMyNetworkState(true);
             new LoadCampusActivity(getBaseContext(), 0).execute();
@@ -86,8 +85,8 @@ public class SelectCampus extends AppCompatActivity {
             //End of local DB
         }
 
-        // Will listen for user choice on the listView will then store the users selectedCampus
-        // As a string for later use and the launches the SelectRestaurant Screen
+        //Will listener for user choice on the listView will then store the users selectedCampus
+        //As a string for later use and the launches the SelectRestaurant Screen
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -188,7 +187,7 @@ public class SelectCampus extends AppCompatActivity {
         myListView.setAdapter(arrayAdapter);
     }
 
-    // This is the AsyncTask that will connect to the database and return a JSONArray of
+    //This is the AsyncTask that will connect to the database and return a JSONArray of
     // Campuses. It currently will only display the campus however the other information is
     // Readily available if needed
     private class LoadCampusActivity extends AsyncTask<String, Void, String> {

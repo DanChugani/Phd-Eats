@@ -14,14 +14,12 @@ import java.util.ArrayList;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Date: 10/20/2015
- *
- * Created by:
  * Name: Richard Clapham
+ *
  * Name: Chandan Chugani
  *
- * Description:
- * An object that stores the users choices as well as an error check. For example it will
+ * Created by Rick & Chandan on 10/20/2015.
+ * An object i am using to store the users choices as well as an error check. For example it will
  * store a network check in certain areas of the app that way if the user looses network connection
  * part way through the app it will handle that and relaunch in a local mode.
  */
@@ -66,7 +64,7 @@ public class FileIO implements Serializable
         return myArrayList;
     }
 
-    //Displays data for local file not being used
+    //Displays data for local fiel not being used
     public static void displayArray(ArrayList<Restaurant> myTemp)
     {
         System.out.println("\nDisplays the contents of the Array: \n");

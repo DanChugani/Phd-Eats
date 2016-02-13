@@ -39,13 +39,12 @@ import java.util.ArrayList;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Date: 10/31/2015
- *
- * Created by:
  * Name: Richard Clapham
+ *
  * Name: Chandan Chugani
  *
- * Description:
+ * Created by Rick & Chandan
+ *
  * This is the Restaurant Information screen if connected to the internet it will connect to a remote
  * database and load all of the available Reviews based off of the users choice of campus and
  *  Restaurant. if you aren't connected to the internet it will use a local database and
@@ -68,9 +67,9 @@ public class ShowRestaurantInfo extends AppCompatActivity
     private TextView restaurantDescriptionTextView;
     private RatingBar rBRestaurantRating;
 
-    // Oncreate will set up the appropriate information in the appropriate textfield
-    // It will then either load reviews from remote database in online more or load from
-    // local database in offline mode
+    //Oncreate will set up the appropriate information in the appropriate textfield
+    //It will then either load reviews from remote database in online more or load from
+    //local database in offline mode
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -91,9 +90,9 @@ public class ShowRestaurantInfo extends AppCompatActivity
         restaurantLocationTextView.setText(myRestaurant.getRestaurantLocation());
         restaurantDescriptionTextView.setText(myRestaurant.getRestaurantDescription());
 
-        // Checks to make sure the user still has an internet connection and handles accordingly
-        // If the user had network connection but loses it part way through it will relaunch
-        // The select campus screen and start it into offline mode
+        //Checks to make sure the user still has an internet connection and handles accordingly
+        //If the user had network connection but loses it part way through it will relaunch
+        //the select campus screen and start it into offline mode
         if(isNetworkAvailable() && myFileIO.getMyNetworkState()) {
             new LoadReviewActivity(getBaseContext(), 0).execute(myFileIO.getMyCampusChoice(), myFileIO.getMyRestaurantChoice());
         }
@@ -117,10 +116,10 @@ public class ShowRestaurantInfo extends AppCompatActivity
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         }
 
-        // Checks for a drawable associated with Restaurant
+        //Checks for a drawable associated with Restaurant
         checkForDrawable();
 
-        // Launches the submitReview activity if clicked
+        //Laucnhes the submitReview activity if clicked
         Button button= (Button) findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

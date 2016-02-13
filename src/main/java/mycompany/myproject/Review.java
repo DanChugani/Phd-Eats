@@ -6,13 +6,11 @@ import java.io.Serializable;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Date: 10/24/2015
- *
- * Created by:
  * Name: Richard Clapham
+ *
  * Name: Chandan Chugani
  *
- * Description:
+ * Created by Rick & Chandan on 10/24/2015.
  * An Object class that is designed to store review information. The review object is used to store
  * the user submitted reviews and the reviews submitted from the remote database.
  */

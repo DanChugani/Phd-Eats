@@ -40,13 +40,13 @@ import java.util.ArrayList;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Date: 10/20/2015
- *
- * Created by:
  * Name: Richard Clapham
- * Name: Chandan Chugani
+ * Student #: 821-490-125
  *
- * Description:
+ * Name: Chandan Chugani
+ * Student #: RefactorThisToYourStudent#Chandan
+ *
+ * Created by Rick
  * This is the submit review screen a simple screen that will allow the user to submit a description
  * and rating of the restaurant
  */

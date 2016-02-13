@@ -13,13 +13,11 @@ import java.util.ArrayList;
  * Team: Ch-ick
  * Project Name: PHD-Eats
  *
- * Date: 10/31/2015
- *
- * Created by:
  * Name: Richard Clapham
+ *
  * Name: Chandan Chugani
  *
- * Description:
+ * Created by Rick & Chandan on 10/31/2015.
  * This is an adapter that will receive an object of Restaurant and then parse the data accordingly
  * in to the listview adapter. Simply receives an object and checks for null values
  * then applies the correct data to the appropriate textfield.
@@ -29,7 +27,7 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant>
     // declaring our ArrayList of items
     private ArrayList<Restaurant> objects;
 
-    /* here we override the constructor for ArrayAdapter
+    /* here we must override the constructor for ArrayAdapter
     * the only variable we care about now is ArrayList<Item> objects,
     * because it is the list of objects we want to display.
     */
@@ -56,11 +54,11 @@ public class RestaurantAdapter extends ArrayAdapter<Restaurant>
         }
 
 		/*
-		 * The variable position is sent in as an argument to this method.
+		 * Recall that the variable position is sent in as an argument to this method.
 		 * The variable simply refers to the position of the current object in the list. (The ArrayAdapter
 		 * iterates through the list we sent it)
 		 *
-		 * Therefore, we refer to the current Item as object.
+		 * Therefore, i refers to the current Item object.
 		 */
         Restaurant i = objects.get(position);
 
